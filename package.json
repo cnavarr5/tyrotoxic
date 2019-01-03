@@ -1,0 +1,25 @@
+{
+  "name": "tyrotoxic",
+  "version": "1.0.0",
+  "description": "First draft of tyrotoxic.com",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass scss/master.scss views/style.css -w",
+    "watch-css": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnavarr5/tyrotoxic.git"
+  },
+  "author": "Chris Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnavarr5/tyrotoxic/issues"
+  },
+  "homepage": "https://github.com/cnavarr5/tyrotoxic#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0",
+    "pug": "^2.0.3"
+  }
+}
